@@ -15,6 +15,6 @@ class String
   end
 
   def count_sentences
-  self.split.select.size {|word| word.end_with?(".", "?", "!")}  binding.pry
+  self.split.select.size {|word| word.end_with?(".", "?", "!")} 
   end
 end
