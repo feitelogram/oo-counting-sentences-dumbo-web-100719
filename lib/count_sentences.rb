@@ -15,7 +15,6 @@ class String
   end
 
   def count_sentences
-  new_array =self.split.select {|word| word.end_with?(".", "?", "!")} 
-  new_array.size
+  self.split.select {|word| word.end_with?(".", "?", "!")}.size
   end
 end
