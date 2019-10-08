@@ -15,7 +15,7 @@ class String
   end
 
   def count_sentences
-  self.split (sentence?, question?, exclamation?)
+  self.split (self.sentence?, self.question?, self.exclamation?)
   binding.pry
   end
 end
